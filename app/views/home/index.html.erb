@@ -1,0 +1,5 @@
+<%- form_for :search, :url => root_url, :html => { :method => "post" } do |f| %>
+  <%= f.text_field :song %>
+  <%= f.submit %>
+<%- end %>
+
